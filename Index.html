@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingeniería Civil Mecatrónica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ingeniería Civil Mecatrónica</h1>
+  <div class="malla">
+    <!-- Aquí irán los ramos, nivel por nivel -->
 
+    <!-- Nivel 1 -->
+    <div class="ramo" data-nombre="Cálculo I">Cálculo I</div>
+    <div class="ramo" data-nombre="Álgebra I">Álgebra I</div>
+    <div class="ramo" data-nombre="Física I">Física I</div>
+    <div class="ramo" data-nombre="Introducción al diseño en ingeniería">Introducción al diseño en ingeniería</div>
+    <div class="ramo" data-nombre="Introducción a la ingeniería Mecatrónica">Introducción a la ingeniería Mecatrónica</div>
+
+    <!-- Nivel 2 -->
+    <div class="ramo" data-nombre="Cálculo II" data-prerrequisitos="Cálculo I">Cálculo II</div>
+    <div class="ramo" data-nombre="Álgebra II" data-prerrequisitos="Álgebra I">Álgebra II</div>
+    <div class="ramo" data-nombre="Física II" data-prerrequisitos="Física I">Física II</div>
+    <div class="ramo" data-nombre="Fundamentos de programación para ingeniería" data-prerrequisitos="Introducción al diseño en ingeniería">Fundamentos de programación para ingeniería</div>
+    <div class="ramo" data-nombre="Química general para ingeniería">Química general para ingeniería</div>
+
+    <!-- Nivel 3 -->
+    <div class="ramo" data-nombre="Inglés I">Inglés I</div>
+    <div class="ramo" data-nombre="Cálculo III" data-prerrequisitos="Cálculo II,Física II">Cálculo III</div>
+    <div class="ramo" data-nombre="Electricidad y Magnetismo" data-prerrequisitos="Cálculo II,Física II">Electricidad y Magnetismo</div>
+    <div class="ramo" data-nombre="Fundamentos de economía para ingeniería" data-prerrequisitos="Cálculo I">Fundamentos de economía para ingeniería</div>
+    <div class="ramo" data-nombre="Análisis estadístico" data-prerrequisitos="Cálculo II,Álgebra II">Análisis estadístico</div>
+    <div class="ramo" data-nombre="Ecuaciones diferenciales y métodos numéricos" data-prerrequisitos="Cálculo II,Álgebra II">Ecuaciones diferenciales y métodos numéricos</div>
+
+    <!-- Nivel 4 -->
+    <div class="ramo" data-nombre="Inglés II" data-prerrequisitos="Inglés I">Inglés II</div>
+    <div class="ramo" data-nombre="Taller de Diseño en ingeniería" data-prerrequisitos="Fundamentos de economía para ingeniería">Taller de Diseño en ingeniería</div>
+    <div class="ramo" data-nombre="Redes Eléctricas Interdisciplinarias" data-prerrequisitos="Electricidad y Magnetismo,Ecuaciones diferenciales y métodos numéricos">Redes Eléctricas Interdisciplinarias</div>
+    <div class="ramo" data-nombre="Materiales para ingeniería Mecatrónica" data-prerrequisitos="Química general para ingeniería">Materiales para ingeniería Mecatrónica</div>
+    <div class="ramo" data-nombre="Mecánica de fluidos" data-prerrequisitos="Física II">Mecánica de fluidos</div>
+    <div class="ramo" data-nombre="Métodos de programación interdisciplinaria" data-prerrequisitos="Fundamentos de programación para ingeniería">Métodos de programación interdisciplinaria</div>
+
+    <!-- Nivel 5 -->
+    <div class="ramo" data-nombre="Inglés III" data-prerrequisitos="Inglés II">Inglés III</div>
+    <div class="ramo" data-nombre="Administración de empresas" data-prerrequisitos="Fundamentos de economía para ingeniería">Administración de empresas</div>
+    <div class="ramo" data-nombre="Estática y Dinámica de Máquinas" data-prerrequisitos="Materiales para ingeniería Mecatrónica">Estática y Dinámica de Máquinas</div>
+    <div class="ramo" data-nombre="Termodinámica y transferencia de calor" data-prerrequisitos="Mecánica de fluidos">Termodinámica y transferencia de calor</div>
+    <div class="ramo" data-nombre="Análisis de algoritmos y estructura de datos interdisciplinarios" data-prerrequisitos="Métodos de programación interdisciplinaria">Análisis de algoritmos y estructura de datos interdisciplinarios</div>
+    <div class="ramo" data-nombre="Sistemas Electrónicos interdisciplinaria" data-prerrequisitos="Redes Eléctricas Interdisciplinarias">Sistemas Electrónicos interdisciplinaria</div>
+
+    <!-- Nivel 6 -->
+    <div class="ramo" data-nombre="Inglés IV" data-prerrequisitos="Inglés III">Inglés IV</div>
+    <div class="ramo" data-nombre="Ingeniería económica" data-prerrequisitos="Administración de empresas">Ingeniería económica</div>
+    <div class="ramo" data-nombre="Conversión de energía para Mecatrónica" data-prerrequisitos="Redes Eléctricas Interdisciplinarias">Conversión de energía para Mecatrónica</div>
+    <div class="ramo" data-nombre="Resistencia y Elasticidad de Materiales" data-prerrequisitos="Estática y Dinámica de Máquinas">Resistencia y Elasticidad de Materiales</div>
+    <div class="ramo" data-nombre="Fundamentos de procesos industriales" data-prerrequisitos="Termodinámica y transferencia de calor">Fundamentos de procesos industriales</div>
+    <div class="ramo" data-nombre="Ingeniería de software interdisciplinaria" data-prerrequisitos="Análisis de algoritmos y estructura de datos interdisciplinarios">Ingeniería de software interdisciplinaria</div>
+
+    <!-- Nivel 7 -->
+    <div class="ramo" data-nombre="Fundamentos de Robótica" data-prerrequisitos="Conversión de energía para Mecatrónica">Fundamentos de Robótica</div>
+    <div class="ramo" data-nombre="Manufactura" data-prerrequisitos="Resistencia y Elasticidad de Materiales">Manufactura</div>
+    <div class="ramo" data-nombre="Proceso de transporte industrial" data-prerrequisitos="Fundamentos de procesos industriales">Proceso de transporte industrial</div>
+    <div class="ramo" data-nombre="Estructura de computadores y sistemas distribuidos" data-prerrequisitos="Ingeniería de software interdisciplinaria">Estructura de computadores y sistemas distribuidos</div>
+    <div class="ramo" data-nombre="Seguridad Industrial" data-prerrequisitos="Fundamentos de procesos industriales">Seguridad Industrial</div>
+    <div class="ramo" data-nombre="Control automático industrial" data-prerrequisitos="Conversión de energía para Mecatrónica">Control automático industrial</div>
+
+    <!-- Nivel 8 -->
+    <div class="ramo" data-nombre="Laboratorio de Robótica Industrial" data-prerrequisitos="Fundamentos de Robótica">Laboratorio de Robótica Industrial</div>
+    <div class="ramo" data-nombre="Instrumentación Industrial" data-prerrequisitos="Control automático industrial">Instrumentación Industrial</div>
+    <div class="ramo" data-nombre="Tópico de especialidad I" data-prerrequisitos="Control automático industrial,Sistemas Electrónicos interdisciplinaria">Tópico de especialidad I</div>
+    <div class="ramo" data-nombre="Electivo I" data-prerrequisitos="Seguridad Industrial">Electivo I</div>
+    <div class="ramo" data-nombre="Modelación y simulación de sistemas Mecatrónicos" data-prerrequisitos="Estructura de computadores y sistemas distribuidos">Modelación y simulación de sistemas Mecatrónicos</div>
+    <div class="ramo" data-nombre="Evaluación de proyectos" data-prerrequisitos="Ingeniería económica">Evaluación de proyectos</div>
+
+    <!-- Nivel 9 -->
+    <div class="ramo" data-nombre="Laboratorio de Automatización Industrial" data-prerrequisitos="Instrumentación Industrial">Laboratorio de Automatización Industrial</div>
+    <div class="ramo" data-nombre="Tópico de especialidad II" data-prerrequisitos="Electivo I">Tópico de especialidad II</div>
+    <div class="ramo" data-nombre="Gestión de calidad y trabajo en equipo" data-prerrequisitos="Seguridad Industrial">Gestión de calidad y trabajo en equipo</div>
+    <div class="ramo" data-nombre="Análisis de datos" data-prerrequisitos="Modelación y simulación de sistemas Mecatrónicos">Análisis de datos</div>
+    <div class="ramo" data-nombre="Energía y medioambiente" data-prerrequisitos="Instrumentación Industrial">Energía y medioambiente</div>
+    <div class="ramo" data-nombre="Electivo II" data-prerrequisitos="Electivo I">Electivo II</div>
+
+    <!-- Nivel 10 -->
+    <div class="ramo" data-nombre="Seminario de Titulación" data-prerrequisitos="Laboratorio de Automatización Industrial,Tópico de especialidad II,Gestión de calidad y trabajo en equipo,Análisis de datos,Energía y medioambiente,Electivo II">Seminario de Titulación</div>
+    <div class="ramo" data-nombre="Proyecto de ingeniería Mecatrónica" data-prerrequisitos="Evaluación de proyectos">Proyecto de ingeniería Mecatrónica</div>
+    <div class="ramo" data-nombre="Tópico de especialidad III" data-prerrequisitos="Tópico de especialidad II">Tópico de especialidad III</div>
+    <div class="ramo" data-nombre="Innovación, emprendimiento y plan de negocios" data-prerrequisitos="Evaluación de proyectos">Innovación, emprendimiento y plan de negocios</div>
+    <div class="ramo" data-nombre="Gestión industrial" data-prerrequisitos="Evaluación de proyectos">Gestión industrial</div>
+    <div class="ramo" data-nombre="Electivo III" data-prerrequisitos="Electivo II">Electivo III</div>
+
+    <!-- Nivel 11 -->
+    <div class="ramo" data-nombre="Trabajo de titulación" data-prerrequisitos="Seminario de Titulación">Trabajo de titulación</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
